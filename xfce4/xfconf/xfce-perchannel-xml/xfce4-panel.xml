@@ -13,6 +13,9 @@
       <property name="size" type="uint" value="26"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="8"/>
+        <value type="int" value="7"/>
         <value type="int" value="2"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
@@ -56,7 +59,22 @@
       <property name="digital-format" type="string" value="%I:%M %p"/>
     </property>
     <property name="plugin-1" type="string" value="power-manager-plugin"/>
-    <property name="plugin-4" type="string" value="whiskermenu"/>
     <property name="plugin-3" type="string" value="whiskermenu"/>
+    <property name="plugin-4" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16535765621.desktop"/>
+      </property>
+      <property name="show-label" type="bool" value="false"/>
+    </property>
+    <property name="plugin-7" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16535765722.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16535765773.desktop"/>
+      </property>
+    </property>
   </property>
 </channel>
